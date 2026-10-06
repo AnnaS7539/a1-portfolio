@@ -1,4 +1,4 @@
---Readme document for *YOUR NAME*, *YOUR_EMAIL@uci.edu*--
+--Readme document for *Yumeng Sun*, *yumens11@uci.edu*--
 
 A reminder on academic integrity, as described in the syllabus.
 
@@ -22,9 +22,14 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 2. What (a) basic features, (b) CSS features, and (c) advanced features did you include in your portfolio?
 
 (a) Basic features
-
-
-
+    Appropriate headings and paragraph text: 
+        <h1> <h2> <h3> and <p>
+    Links to external page(s):
+        link to my github account.
+    Multiple pages, with appropriate navigation between them:
+        index.html and projects.html
+    Adding custom icons from Google Material Icons, Font Awesome, or similar:
+        mail，call and github symbols from Font Awesome
 (b) CSS features
 
 

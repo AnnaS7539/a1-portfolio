@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yumeng Sun - Projects</title>
+</head>
+
+<body>
+    <nav>
+        <h1>Yumeng Sun</h1>
+        <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>Projects</h2>
+
+        <ul>
+            <li>
+                <h3>Database Management System</h3>
+                <p>Mar 2026 – Jun 2026</p>
+                <p>
+                    <strong>Tech Stack:</strong>
+                    C++, Data Structures, Database Systems
+                </p>
+                <p>
+                    Built core components of a lightweight database system from scratch, covering page-based
+                    storage, record management, B+ Tree indexing, and query processing.
+                </p>
+                <ul>
+                    <li>
+                        Implemented page-based file management and record management, designing record-page layouts
+                        and variable-length field storage while supporting record insertion, deletion, update,
+                        retrieval, and conditional scanning.
+                    </li>
+                    <li>
+                        Implemented B+ Tree index management, supporting index creation, insertion, deletion, and
+                        range scanning, with index-node maintenance and data-record lookup.
+                    </li>
+                    <li>
+                        Built an iterator-based query processing engine supporting filtering, projection, nested-loop
+                        joins, index nested-loop joins, and aggregation, integrating storage, indexing, and query
+                        execution into a complete data-processing pipeline.
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <h3>Machine Learning-Based Income Classification</h3>
+                <p>Sep 2025 – Dec 2025</p>
+                <p>
+                    <strong>Tech Stack:</strong>
+                    Python, scikit-learn, Pandas, Matplotlib
+                </p>
+                <p>
+                    Built a binary income classification model using the UCI Adult Dataset (48,842 samples,
+                    14 features), covering data preprocessing, feature engineering, exploratory analysis,
+                    model development, and evaluation.
+                </p>
+                <ul>
+                    <li>
+                        Primarily responsible for Logistic Regression and Support Vector Machine model development,
+                        hyperparameter tuning, and performance evaluation.
+                    </li>
+                    <li>
+                        Addressed class imbalance using <code>class_weight='balanced'</code> and applied 5-fold
+                        cross-validation to evaluate the effects of regularization parameters, kernel functions,
+                        and gamma on model generalization.
+                    </li>
+                    <li>
+                        Achieved 81% accuracy with Logistic Regression and 85% accuracy with an RBF-kernel SVM,
+                        comparing the predictive performance of multiple models.
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <h3>UCI Website Search Engine</h3>
+                <p>Mar 2025 – Jun 2025</p>
+                <p>
+                    <strong>Tech Stack:</strong>
+                    Python, BeautifulSoup, Web Crawling, Inverted Index, Natural Language Processing
+                </p>
+                <p>
+                    Built a search engine for UCI websites, implementing web crawling, HTML parsing, inverted
+                    indexing, query processing, and result ranking, with a Web-based search interface.
+                </p>
+                <ul>
+                    <li>
+                        Developed a web crawler using Python and BeautifulSoup, filtering irrelevant content through
+                        domain restrictions, file-type filtering, URL-trap detection, and duplicate-page detection
+                        to construct a high-quality document collection.
+                    </li>
+                    <li>
+                        Built and optimized an inverted index, splitting the full index into approximately 500-term
+                        chunks and loading chunks dynamically based on query requirements, eliminating approximately
+                        40 seconds of preloading time and reducing memory usage.
+                    </li>
+                    <li>
+                        Optimized query processing with stop-word removal and stemming for long queries, improving
+                        retrieval performance for complex natural-language queries; typical query response time
+                        reached the millisecond range.
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </main>
+</body>
+
+</html>
