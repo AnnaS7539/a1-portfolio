@@ -28,6 +28,7 @@ Talking to classmates about class material, assignment requirements, etc. is a g
         link to my github account.
     Multiple pages, with appropriate navigation between them:
         index.html and projects.html
+        ------------------TODO-----------------
     Adding custom icons from Google Material Icons, Font Awesome, or similar:
         mail，call and github symbols from Font Awesome
 (b) CSS features

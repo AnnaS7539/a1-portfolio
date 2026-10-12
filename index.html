@@ -12,52 +12,145 @@ EMAIL: yumens11@uci.edu
   <meta name="description" content="Yumeng Sun's personal portfolio website">
   <!-- you would link to an external stylesheet here! -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Isometra&display=swap" rel="stylesheet">
   <!-- you would also link to Bootstrap here! -->
-  <title>Yumeng Sun - About</title>
+  <title>Yumeng Sun - Portfolio</title>
 </head>
 
 <body>
-  <nav>
-    <h1>Yumeng Sun</h1>
-    <ul>
-      <li><a href="index.html">About</a></li>
-      <li><a href="projects.html">Projects</a></li>
-    </ul>
-  </nav>
+  <header>
+    <nav>
+      <a href="#" class="name">Yumeng<br>Sun</a>
+      <ul>
+        <li><a href="#intern">[ Internship ]</a></li>
+        <li><a href="#projects">[ Projects ]</a></li>
+      </ul>
+      <a href="#contact" class="contact-btn">CONTACT ME</a>
+    </nav>
+    <div class="hero">
+      <div class="hero-text">
+        <h1>Hi, I'm<br><span class="red">Yumeng Sun</span></h1>
+        <p>
+          I'm a senior Computer Science student at the University of California, Irvine,
+          passionate about building reliable software and intuitive web experiences.
+          I enjoy solving problems through code, exploring new technologies, and turning
+          ideas into practical solutions. I'm excited to apply my technical skills to
+          develop software that makes a meaningful impact.
+        </p>
+      </div>
+      <img src="portrait.png"
+        alt="Portrait of Yumeng Sun wearing black glasses and a black blazer over a dark green top, standing with her arms crossed.">
+    </div>
+
+  </header>
   <main>
-    <p>
-      <i class="fa-solid fa-phone"></i>
-      <a href="tel:+19492277014">949-227-7014</a>
-    </p>
+    <section id="intern">
+      <h2>Internship</h2>
+      <div class="intern-content">
+        <img src="intern.png">
+        <h3>Software Engineering Intern</h3>
+        <p>Jul 2026 - Sep 2026</p>
 
-    <p>
-      <i class="fa-regular fa-envelope"></i>
-      <a href="mailto:yumens11@uci.edu">yumens11@uci.edu</a>
-    </p>
+        <p>
+          Joined the development team for a CRM Agent product, developing its bilingual marketing website and
+          contributing to product testing.
+        </p>
+      </div>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul class="project-list">
+        <li class="project-card">
+          <span class="project-number">01</span>
+          <h3>Database Management System</h3>
 
-    <p>
-      <i class="fa-brands fa-github"></i>
-      <a href="https://github.com/AnnaS7539">GitHub</a>
-    </p>
+          <div class="project-details">
+            <p>Mar 2026 – Jun 2026</p>
+            <p><strong>Tech Stack:</strong> C++, Data Structures, Database Systems</p>
+            <p>
+              Built core components of a lightweight database management system from scratch in C++.
+            </p>
+            <ul>
+              <li>Implemented page-based storage and record management. Designed on-page record data layouts and
+                metadata management to support CRUD operations.</li>
+              <li>Implemented a B+ Tree-based Index Manager for efficient indexing and range queries.</li>
+              <li>Built an iterator-based query processing engine, supporting filtering, projection, block nested-loop
+                joins, index nested-loop joins, and aggregation.</li>
+            </ul>
+          </div>
+        </li>
 
-    <h2>Education</h2>
-    <p>
-      University of California, Irvine
-      <br>
-      B.S. in Computer Science | Sep 2023 - Jun 2027 | GPA: 3.93/4
-    </p>
-    <p>
-      Relevant Coursework: Data Structures & Algorithms, Database Systems, Operating Systems, Computer Networks,
-      Artificial Intelligence, Machine Learning & Data Mining, Information Retrieval
-    </p>
-    <h2>Skills</h2>
-    <ul>
-      <li>AI & Development: AI Coding Agents, MCP, Codex</li>
-      <li>Tools: Git, GitHub, Vercel</li>
-      <li>Languages: Python, C++, Java, C, JavaScript, SQL</li>
-      <li>Systems & Data: Database Systems, B+ Trees, Query Processing, Information Retrieval, Inverted Index</li>
-      <li>Frameworks & Libraries: React, Vite, React Router, scikit-learn, Pandas, BeautifulSoup</li>
-    </ul>
+        <li class="project-card">
+          <span class="project-number">02</span>
+          <h3>Machine Learning — Income Classification</h3>
+
+          <div class="project-details">
+            <p>Sep 2025 – Dec 2025</p>
+            <p><strong>Tech Stack:</strong> Python, scikit-learn, Pandas, Matplotlib</p>
+            <p>
+              Built a binary income classification model using the UCI Adult Dataset (48,842 samples, 14 features),
+              covering data preprocessing, model development, and evaluation.
+            </p>
+            <ul>
+              <li>Developed a Logistic Regression baseline with 5-fold cross-validation, achieving 81% accuracy.</li>
+              <li>Compared SVM kernel functions and tuned hyperparameters, achieving 85% accuracy with an RBF kernel.
+              </li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="project-card">
+          <span class="project-number">03</span>
+          <h3>UCI Website Search Engine</h3>
+
+          <div class="project-details">
+            <p>Mar 2025 – Jun 2025</p>
+            <p><strong>Tech Stack:</strong> Python, BeautifulSoup, Web Crawling, Inverted Index, Natural Language
+              Processing</p>
+            <p>
+              Developed a Python-based search engine for UCI websites, integrating web crawling, HTML parsing, inverted
+              indexing, query processing, and result ranking.
+            </p>
+            <ul>
+              <li>Developed a Python web crawler using BeautifulSoup to collect and parse UCI website content, with URL
+                filtering and duplicate-page detection.</li>
+              <li>Built a search engine for UCI websites in Python, implementing inverted indexing, query processing,
+                and result ranking.</li>
+              <li>Optimized search engine performance through stop-word removal, stemming and on-demand index loading,
+                reducing memory usage and index loading time.</li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+
+      <aside>
+        <p>
+          <i class="fa-solid fa-phone"></i>
+          <a href="tel:+19492277014">949-227-7014</a>
+        </p>
+
+        <p>
+          <i class="fa-regular fa-envelope"></i>
+          <a href="mailto:yumens11@uci.edu">yumens11@uci.edu</a>
+        </p>
+
+        <p>
+          <i class="fa-brands fa-github"></i>
+          <a href="https://github.com/AnnaS7539">AnnaS7539</a>
+        </p>
+
+        <p>
+          <i class="fa-brands fa-linkedin"></i>
+          <a href="https://www.linkedin.com/in/yumeng-sun-16737b306/">LinkedIn</a>
+        </p>
+      </aside>
+    </section>
   </main>
 
 </body>
