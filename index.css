@@ -3,6 +3,7 @@ body {
     background: black;
 }
 
+/*nav bar layout*/
 nav {
     display: flex;
     justify-content: space-between;
@@ -36,23 +37,23 @@ nav .name {
     font-size: 25px;
 }
 
-
-
 nav .contact-btn {
     padding: 10px;
     margin-right: 20px;
     background-color: white;
     color: black;
-    border: 1px solid white;
+    border: none;
     border-radius: 30px;
 }
 
+/*nav bar for small screen: ignore [intern] and [project]*/
 @media (max-width: 750px) {
     nav ul {
         display: none;
     }
 }
 
+/*hero layout*/
 .hero {
     color: white;
     display: flex;
@@ -98,7 +99,7 @@ nav .contact-btn {
     }
 }
 
-
+/*subtitle font*/
 main h2 {
     color: azure;
     font-family: Isometra;
@@ -107,6 +108,7 @@ main h2 {
     padding: 20px;
 }
 
+/*intern part layout*/
 .intern-content {
     max-width: 1000px;
     width: 90%;
@@ -174,7 +176,7 @@ main h2 {
     }
 }
 
-
+/*project part layout*/
 #projects .project-list {
     display: flex;
     width: 100%;
@@ -211,6 +213,7 @@ main h2 {
     display: none;
 }
 
+/*hover effect of project card*/
 #projects .project-card:hover {
     flex: 4;
     overflow-y: auto;
@@ -261,7 +264,7 @@ main h2 {
 }
 
 
-
+/*contact part layout*/
 
 #contact {
     background-color: black;
